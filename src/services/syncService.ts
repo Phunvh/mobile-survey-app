@@ -106,7 +106,7 @@ class SyncService {
   // 2. Gửi một phiếu đơn lẻ lên máy chủ
   private async syncSingle(item: SyncQueueItem): Promise<boolean> {
     try {
-      const endpoint = `${this.backendUrl}/inspections/submit`;
+      const endpoint = `${this.backendUrl}/api/inspections/submit`;
       const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
