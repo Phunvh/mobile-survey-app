@@ -1,5 +1,113 @@
 [
   {
+    "id": "insp_1788449954634",
+    "building": "Tòa Nhà A - Giảng Đường & Lớp Học",
+    "floor": "Tầng 1 (Trệt)",
+    "room": "Phòng A101 (Hội trường)",
+    "inspectorName": "Nguyễn Văn An",
+    "inspectorCode": "CB-2025",
+    "inspectionDate": "2026-09-03",
+    "overallRating": 5,
+    "priority": "low",
+    "items": [
+      {
+        "id": "cat_electric",
+        "category": "Điện & Chiếu sáng",
+        "name": "Đèn tuýp LED / Đèn chiếu sáng lớp học",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_switch",
+        "category": "Điện & Chiếu sáng",
+        "name": "Công tắc, ổ cắm & hộp cầu dao",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_fan",
+        "category": "Điện & Chiếu sáng",
+        "name": "Quạt trần / Quạt treo tường",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_ac",
+        "category": "Điều hòa & Thông gió",
+        "name": "Máy điều hòa nhiệt độ (Khả năng làm mát & lưới lọc)",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_furniture",
+        "category": "Bàn ghế & Nội thất",
+        "name": "Bàn ghế sinh viên (Độ chắc chắn, không gãy vỡ)",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_podium",
+        "category": "Bàn ghế & Nội thất",
+        "name": "Bàn giảng viên & Bục giảng",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_board",
+        "category": "Thiết bị giảng dạy",
+        "name": "Bảng từ / Bảng viết phấn & Máy chiếu / Màn chiếu",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_doors",
+        "category": "Cửa & Cửa sổ",
+        "name": "Cửa ra vào chính, khóa chốt & tay nắm",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_windows",
+        "category": "Cửa & Cửa sổ",
+        "name": "Cửa sổ kính & chốt an toàn chắn gió",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_pccc",
+        "category": "An toàn PCCC",
+        "name": "Bình chữa cháy bột/CO2 (Kiểm tra áp suất & niêm phong)",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_exit",
+        "category": "An toàn PCCC",
+        "name": "Đèn EXIT chỉ dẫn thoát hiểm & Đèn sự cố",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_water",
+        "category": "Cấp thoát nước & WC",
+        "name": "Vòi nước, bồn rửa lavabo & hệ thống thoát sàn",
+        "condition": "good",
+        "notes": ""
+      },
+      {
+        "id": "cat_wall_floor",
+        "category": "Hạ tầng kết cấu",
+        "name": "Tường nứt, trần nhà dột, gạch lát sàn không vỡ",
+        "condition": "good",
+        "notes": ""
+      }
+    ],
+    "submittedAt": "2026-09-03T15:39:14.634Z",
+    "syncStatus": "synced",
+    "deviceInfo": "PWA Standalone",
+    "serverReceivedAt": "2026-09-03T15:39:14.657Z"
+  },
+  {
     "id": "insp_1788448755222",
     "building": "Tòa Nhà A - Giảng Đường & Lớp Học",
     "floor": "Tầng 1 (Trệt)",
