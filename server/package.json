@@ -1,13 +1,17 @@
 {
-  "name": "server",
+  "name": "campus-facility-audit-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Campus Facility Inspection Backend API - Offline-First Sync Server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["campus", "facility", "inspection", "offline-first"],
+  "author": "Phunvh",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",

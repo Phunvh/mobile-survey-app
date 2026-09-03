@@ -7,8 +7,12 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware
-app.use(cors());
-app.use(express.json({ limit: '20mb' })); // Support base64 photos
+app.use(cors({
+  origin: '*', // Allow all origins (mobile apps, different domains)
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+app.use(express.json({ limit: '25mb' })); // Support base64 photos from camera
 
 // Data directory & storage file
 const DATA_DIR = path.join(__dirname, 'data');

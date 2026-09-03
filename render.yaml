@@ -1,0 +1,17 @@
+# Cấu hình Render.com (Blueprint)
+# File này giúp Render.com tự động nhận diện cả Frontend PWA lẫn Backend API
+
+services:
+  # Backend API Server
+  - type: web
+    name: campus-facility-api
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /health
